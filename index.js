@@ -1,5 +1,7 @@
-#!/usr/bin/env
+#!/usr/bin/env node
+
 import inquirer from "inquirer";
+
 let currency = {
     USD: { value: 1, symbol: '$' },
     PKR: { value: 278.0, symbol: '₨' },
